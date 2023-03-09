@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Search</title>
+</head>
+<body>
+	<form action="{{ url_for('search_flights') }}" method="get">
+		<label>Origin:</label>
+		<input type="text" name="origin"><br><br>
+
+		<label>Destination:</label>
+		<input type="text" name="destination"><br><br>
+
+		<label>Departure Date:</label>
+		<input type="date" name="departureDate"><br><br>
+
+		<label>Return Date:</label>
+		<input type="date" name="returnDate"><br><br>
+
+		<label>Adults:</label>
+		<input type="number" name="adults" value="1"><br><br>
+
+		<input type="submit" value="Search Flights">
+	</form>
+</body>
+</html>
