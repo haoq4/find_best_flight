@@ -14,8 +14,14 @@ params = {
     'access_key': ACCESS_KEY,
     'adults': 1,
     'origin': 'SEA',
-    'destination': 'LAX',
-    'departureDate': '2023-03-17'
+    'destination': 'CKG',
+    'departureDate': '2023-03-31',
+    'returnDate': None,
+    'cabinClass': None,
+    'currency': 'USD',
+    'childAge1': None,
+    'childAge2': None,
+    'childAge3': None
 }
 
 # Make API request
@@ -27,4 +33,4 @@ data = response.json()
 with open("best_flights.json", "w") as f:
     json.dump(data, f, indent=4)
 
-print('end')
+print('Finish search!')

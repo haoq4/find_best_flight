@@ -1,5 +1,4 @@
 import requests
-import csv
 import json
 
 ACCESS_KEY = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzgyMjE5ZWJlNG' \
@@ -14,9 +13,15 @@ url = "https://app.goflightlabs.com/search-all-flights"
 params = {
     'access_key': ACCESS_KEY,
     'adults': 1,
-    'origin': 'LAX',
-    'destination': 'JFK',
-    'departureDate': '2023-03-18'
+    'origin': 'SEA',
+    'destination': 'CKG',
+    'departureDate': '2023-03-31',
+    'returnDate': None,
+    'cabinClass': None,
+    'currency': 'USD',
+    'childAge1': None,
+    'childAge2': None,
+    'childAge3': None
 }
 
 # Make API request
