@@ -1,21 +1,13 @@
-import pandas as pd
 import requests
-from datetime import datetime
+import configparser
 from flask import Flask, render_template, request
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
-ACCESS_KEY = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiYzgyMjE5ZWJlNG' \
-             'YxMzZlMGIwZTBhZDU2MThkODEzNDJmZmZkZDI5Y2E5YzNmZDY5NzYyZmViZTllNDAxM2QyMzRlZ' \
-             'jRhMDNkMzcxNjAyNWMiLCJpYXQiOjE2NzgxNTEyMjQsIm5iZiI6MTY3ODE1MTIyNCwiZXhwIjox' \
-             'NzA5NzczNjI0LCJzdWIiOiIyMDM2OCIsInNjb3BlcyI6W119.hwkEH5xoJgK9cLCscfK3I9L94Ww' \
-             'EEgnuiRCqmIpeSmSYrgsDh6RLDWCukXFOIzX8Ym6odxMMkW2EdJSq9ZpSyQ'
-
-def get_total_hours(start_time, end_time):
-    duration = end_time - start_time
-    total_seconds = duration.total_seconds()
-    total_hours = total_seconds / 3600
-    return round(total_hours, 2)
+# read the config.ini file to get the access key of the api
+config = configparser.ConfigParser()
+config.read('config.ini')
+ACCESS_KEY = config.get('API', 'access_key')
 
 @app.route('/')
 def index():
@@ -51,37 +43,44 @@ def search_flights():
     for bucket in buckets:
         quality = bucket['name']
         for item in bucket['items']:
-            start_time = item['legs'][0]['departure'].replace('T', ' ')
-            end_time = item['legs'][0]['arrival'].replace('T', ' ')
-            total_hour = get_total_hours(datetime.fromisoformat(start_time),
-                                         datetime.fromisoformat(end_time))
-            stop_count = item['legs'][0]['stopCount']
-            stop_airport = []
-            for num in range(stop_count):
-                stop_airport.append(item['legs'][0]['segments'][num]['destination']['flightPlaceId'])
-            items.append({
-                'quality': quality,
-                'price': item['price']['formatted'],
-                'origin': item['legs'][0]['origin']['id'],
-                'destination': item['legs'][0]['destination']['id'],
-                'stop count': stop_count,
-                'stop airport': stop_airport,
-                'total time(hr)': total_hour,
-                'departure': start_time,
-                'arrival': end_time,
-                'carrier': item['legs'][0]['segments'][0]['marketingCarrier']['name'],
-                'flightNumber': item['legs'][0]['segments'][0]['marketingCarrier']['alternateId'] + '' +
-                            item['legs'][0]['segments'][0]['flightNumber'],
-                'link': item['deeplink']
-            })
+            for i, leg in enumerate(item['legs']):
+                start_time = leg['departure'].replace('T', ' ')
+                end_time = leg['arrival'].replace('T', ' ')
+                total_hour = f"{leg['durationInMinutes'] // 60}h {leg['durationInMinutes'] % 60}m"
+                stop_count = leg['stopCount']
+                stop_airport = []
+                flight_number = []
+                for num in range(stop_count):
+                    stop_airport.append(leg['segments'][num]['destination']['flightPlaceId'])
+                for segment in leg['segments']:
+                    flight_number.append(segment['marketingCarrier']['alternateId'] + '' +
+                                         segment['flightNumber'])
+                if len(item['legs']) == 1:
+                    way = 'One Way'
+                else:
+                    if i == 0:
+                        way = 'Outbound'
+                    else:
+                        way = 'Return'
+                items.append({
+                    'quality': quality,
+                    'trip type': way,
+                    # 'id': leg['id'],
+                    'price': item['price']['formatted'],
+                    'origin': leg['origin']['id'],
+                    'destination': leg['destination']['id'],
+                    'stop count': stop_count,
+                    'stop airport': stop_airport,
+                    'total time': total_hour,
+                    'departure': start_time,
+                    'arrival': end_time,
+                    'carrier': leg['segments'][0]['marketingCarrier']['name'],
+                    'flightNumber': flight_number,
+                    'link': item['deeplink']
+                })
 
-    # Create a dataframe from the extracted data
-    df = pd.DataFrame(items)
-    #save as csv file
-    df.to_csv('best_flights.csv')
-
-    # render results_test.html template
-    return render_template('results_test.html', items=items)
+    # render results.html template
+    return render_template('results.html', items=items)
 
 
 if __name__ == '__main__':

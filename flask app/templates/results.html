@@ -22,16 +22,17 @@
 		<thead>
 			<tr>
 				<th>Quality</th>
+                <th>Trip Type</th>
 				<th>Price</th>
 				<th>Origin</th>
 				<th>Destination</th>
-				<th>Stop Count</th>
-				<th>Stop Airports</th>
 				<th>Total Time (hr)</th>
 				<th>Departure</th>
 				<th>Arrival</th>
-				<th>Carrier</th>
+				<th>Main Carrier</th>
 				<th>Flight Number</th>
+                <th>Stop Count</th>
+				<th>Stop Airports</th>
 				<th>Link</th>
 			</tr>
 		</thead>
@@ -39,16 +40,17 @@
 			{% for item in items %}
 			<tr>
 				<td>{{ item.quality }}</td>
+                <td>{{ item['trip type'] }}</td>
 				<td>{{ item.price }}</td>
 				<td>{{ item.origin }}</td>
 				<td>{{ item.destination }}</td>
-				<td>{{ item['stop count'] }}</td>
-				<td>{{ item['stop airport']|join(', ') }}</td>
-				<td>{{ item['total time(hr)'] }}</td>
+				<td>{{ item['total time'] }}</td>
                 <td>{{ item.departure.split()[0] }}<br>{{ item.departure.split()[1] }}</td>
                 <td>{{ item.arrival.split()[0] }}<br>{{ item.arrival.split()[1] }}</td>
 				<td>{{ item.carrier }}</td>
 				<td>{{ item.flightNumber }}</td>
+                <td>{{ item['stop count'] }}</td>
+				<td>{{ item['stop airport']|join(', ') }}</td>
 				<td><a href="{{ item.link }}">{{ item.link }}</a></td>
 			</tr>
 			{% endfor %}
