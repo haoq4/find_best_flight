@@ -1,14 +1,10 @@
 import requests
-import configparser
 from flask import Flask, render_template, request
+from datetime import datetime
 
 app = Flask(__name__, template_folder='templates')
 
-# read the config.ini file to get the access key of the api
-config = configparser.ConfigParser()
-config.read('config.ini')
-ACCESS_KEY = config.get('API', 'access_key')
-
+#ACCESS_KEY = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiOTUzYmFlYjdlNzZmZTM3ZTdmN2EwYjRlNzA5ZmIwYjQ0NTY2ODZlM2MyNWVhNzczMGRkZmRhYmQzMzg5MTBiYTcxZGQ5NmRiNGQ2N2Y2MzUiLCJpYXQiOjE2Nzg1ODA1MzQsIm5iZiI6MTY3ODU4MDUzNCwiZXhwIjoxNzEwMjAyOTM0LCJzdWIiOiIyMDQyMyIsInNjb3BlcyI6W119.KNPlME2xni0aTFx4gInGaHIQBBsWszGNr8RIHbWBr83C2ekTWaIXWrarXyhSPSNoIcWmElUbUoJxDKZPJwCxDQ'
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -24,9 +20,9 @@ def search_flights():
 
     # set the request parameters
     params = {
-        'access_key': ACCESS_KEY,
-        'origin': origin,
-        'destination': destination,
+        #'access_key': ACCESS_KEY,
+        'origin': origin.upper(),
+        'destination': destination.upper(),
         'departureDate': departureDate,
         'returnDate': returnDate,
         'adults': adults,
@@ -34,18 +30,27 @@ def search_flights():
     }
 
     # send API request
-    response = requests.get('https://app.goflightlabs.com/search-best-flights', params=params)
+    headers = {
+        "X-RapidAPI-Key": "02ba8894e0msh39e4584d49e4b52p1dc2cajsn2f1ba40ea936",
+        "X-RapidAPI-Host": "skyscanner44.p.rapidapi.com"
+    }
+    url = "https://skyscanner44.p.rapidapi.com/search"
+    response = requests.get(url, headers=headers, params=params)
+    #response = requests.get('https://app.goflightlabs.com/search-best-flights', params=params)
     data = response.json() # this data is dict for now
 
     # Create a dataframe from the JSON data
-    buckets = data['data']['buckets']
+    buckets = data['itineraries']['buckets']
+    #buckets = data['data']['buckets']
     items = []
     for bucket in buckets:
         quality = bucket['name']
         for item in bucket['items']:
             for i, leg in enumerate(item['legs']):
-                start_time = leg['departure'].replace('T', ' ')
-                end_time = leg['arrival'].replace('T', ' ')
+                # start_time = leg['departure'].replace('T', ' ')
+                # end_time = leg['arrival'].replace('T', ' ')
+                start_time = datetime.strptime(leg['departure'], '%Y-%m-%dT%H:%M:%S').strftime("%H:%M %m/%d/%Y")
+                end_time = datetime.strptime(leg['arrival'], '%Y-%m-%dT%H:%M:%S').strftime("%H:%M %m/%d/%Y")
                 total_hour = f"{leg['durationInMinutes'] // 60}h {leg['durationInMinutes'] % 60}m"
                 stop_count = leg['stopCount']
                 stop_airport = []

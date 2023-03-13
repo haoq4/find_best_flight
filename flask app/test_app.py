@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 from flask import Flask, render_template
+from datetime import datetime
 
 # This test_app is used for testing the results.html, it was given a
 # best_flights.json file and to test the result table
@@ -11,15 +12,18 @@ with open('best_flights.json', encoding='utf-8') as f:
     data = json.load(f)
 
 # Extract the relevant data from the JSON object
-buckets = data['data']['buckets']
+#buckets = data['data']['buckets']
+buckets = data['itineraries']['buckets']
 items = []
 
 for bucket in buckets:
     quality = bucket['name']
     for item in bucket['items']:
         for i, leg in enumerate(item['legs']):
-            start_time = leg['departure'].replace('T', ' ')
-            end_time = leg['arrival'].replace('T', ' ')
+            # start_time = leg['departure'].replace('T', ' ')
+            # end_time = leg['arrival'].replace('T', ' ')
+            start_time = datetime.strptime(leg['departure'], '%Y-%m-%dT%H:%M:%S').strftime("%H:%M %m/%d/%Y")
+            end_time = datetime.strptime(leg['arrival'], '%Y-%m-%dT%H:%M:%S').strftime("%H:%M %m/%d/%Y")
             total_hour = f"{leg['durationInMinutes'] // 60}h {leg['durationInMinutes'] % 60}m"
             stop_count = leg['stopCount']
             stop_airport = []
