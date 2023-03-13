@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Search Results</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: center;
+			white-space: nowrap;
+		}
+
+		th {
+			background-color: #f2f2f2;
+			font-weight: bold;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		tr:hover {
+			background-color: #ddd;
+		}
+
+		@media screen and (max-width: 600px) {
+			table {
+				font-size: 12px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Flight Search Results</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Quality</th>
+                <th>Trip Type</th>
+				<th>Price</th>
+				<th>Origin</th>
+				<th>Destination</th>
+				<th>Total Time (hr)</th>
+				<th>Departure</th>
+				<th>Arrival</th>
+				<th>Main Carrier</th>
+				<th>Flight Number</th>
+                <th>Stop Count</th>
+				<th>Stop Airports</th>
+				<th>Link</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for item in items %}
+			<tr>
+				<td>{{ item.quality }}</td>
+                <td>{{ item['trip type'] }}</td>
+				<td>{{ item.price }}</td>
+				<td>{{ item.origin }}</td>
+				<td>{{ item.destination }}</td>
+				<td>{{ item['total time'] }}</td>
+                <td>{{ item.departure}}</td>
+                <td>{{ item.arrival}}</td>
+				<td>{{ item.carrier }}</td>
+				<td>{{ item.flightNumber }}</td>
+                <td>{{ item['stop count'] }}</td>
+				<td>{{ item['stop airport']|join(', ') }}</td>
+				<td><a href="{{ item.link }}">{{ item.link }}</a></td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	<br>
+	<form action="/" method="get">
+		<input type="submit" value="Search Another Flight">
+	</form>
+</body>
+</html>
