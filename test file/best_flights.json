@@ -1,0 +1,2425 @@
+{
+    "context": {
+        "status": "complete",
+        "sessionId": "36dc14a5-bb1d-499e-acf2-70ea116241d3",
+        "totalResults": 646
+    },
+    "itineraries": {
+        "buckets": [
+            {
+                "id": "Best",
+                "name": "Best",
+                "items": [
+                    {
+                        "id": "10568-2303180810--32253-0-15277-2303181035|15277-2303190700--32690-0-10568-2303190955",
+                        "price": {
+                            "raw": 368,
+                            "formatted": "$368"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303180810--32253-0-15277-2303181035",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 145,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T08:10:00",
+                                "arrival": "2023-03-18T10:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32253,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HU.png",
+                                            "name": "Hainan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303180810-2303181035--32253",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T08:10:00",
+                                        "arrival": "2023-03-18T10:35:00",
+                                        "durationInMinutes": 145,
+                                        "flightNumber": "7368",
+                                        "marketingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190700--32690-0-10568-2303190955",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 175,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T07:00:00",
+                                "arrival": "2023-03-19T09:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303190700-2303190955--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T07:00:00",
+                                        "arrival": "2023-03-19T09:55:00",
+                                        "durationInMinutes": 175,
+                                        "flightNumber": "1437",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.807803,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 368,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303180810--32253-0-15277-2303181035|15277-2303190700--32690-0-10568-2303190955?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "10568-2303182130--32690-0-15277-2303190005|15277-2303190700--32690-0-10568-2303190955",
+                        "price": {
+                            "raw": 361,
+                            "formatted": "$361"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303182130--32690-0-15277-2303190005",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 155,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T21:30:00",
+                                "arrival": "2023-03-19T00:05:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303182130-2303190005--32690",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T21:30:00",
+                                        "arrival": "2023-03-19T00:05:00",
+                                        "durationInMinutes": 155,
+                                        "flightNumber": "1436",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190700--32690-0-10568-2303190955",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 175,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T07:00:00",
+                                "arrival": "2023-03-19T09:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303190700-2303190955--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T07:00:00",
+                                        "arrival": "2023-03-19T09:55:00",
+                                        "durationInMinutes": 175,
+                                        "flightNumber": "1437",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.798513,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 361,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303182130--32690-0-15277-2303190005|15277-2303190700--32690-0-10568-2303190955?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "10568-2303180810--32253-0-15277-2303181035|15277-2303190800--32690-0-10568-2303191050",
+                        "price": {
+                            "raw": 379,
+                            "formatted": "$379"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303180810--32253-0-15277-2303181035",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 145,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T08:10:00",
+                                "arrival": "2023-03-18T10:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32253,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HU.png",
+                                            "name": "Hainan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303180810-2303181035--32253",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T08:10:00",
+                                        "arrival": "2023-03-18T10:35:00",
+                                        "durationInMinutes": 145,
+                                        "flightNumber": "7368",
+                                        "marketingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190800--32690-0-10568-2303191050",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 170,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T08:00:00",
+                                "arrival": "2023-03-19T10:50:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303190800-2303191050--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T08:00:00",
+                                        "arrival": "2023-03-19T10:50:00",
+                                        "durationInMinutes": 170,
+                                        "flightNumber": "1431",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.796807,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 379,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303180810--32253-0-15277-2303181035|15277-2303190800--32690-0-10568-2303191050?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Cheapest",
+                "name": "Cheapest",
+                "items": [
+                    {
+                        "id": "10568-2303182005--31878-0-15277-2303182240|15277-2303190740--31878-1-10568-2303191310",
+                        "price": {
+                            "raw": 301.99,
+                            "formatted": "$302"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303182005--31878-0-15277-2303182240",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 155,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T20:05:00",
+                                "arrival": "2023-03-18T22:40:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31878,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/3U.png",
+                                            "name": "Sichuan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303182005-2303182240--31878",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T20:05:00",
+                                        "arrival": "2023-03-18T22:40:00",
+                                        "durationInMinutes": 155,
+                                        "flightNumber": "8833",
+                                        "marketingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190740--31878-1-10568-2303191310",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 330,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T07:40:00",
+                                "arrival": "2023-03-19T13:10:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31878,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/3U.png",
+                                            "name": "Sichuan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-18534-2303190740-2303191000--31878",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "ZHY",
+                                            "parent": {
+                                                "flightPlaceId": "ZHON",
+                                                "name": "Zhongwei",
+                                                "type": "City"
+                                            },
+                                            "name": "Zhongwei",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T07:40:00",
+                                        "arrival": "2023-03-19T10:00:00",
+                                        "durationInMinutes": 140,
+                                        "flightNumber": "8819",
+                                        "marketingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "18534-10568-2303191105-2303191310--31878",
+                                        "origin": {
+                                            "flightPlaceId": "ZHY",
+                                            "parent": {
+                                                "flightPlaceId": "ZHON",
+                                                "name": "Zhongwei",
+                                                "type": "City"
+                                            },
+                                            "name": "Zhongwei",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T11:05:00",
+                                        "arrival": "2023-03-19T13:10:00",
+                                        "durationInMinutes": 125,
+                                        "flightNumber": "8819",
+                                        "marketingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "lmuk"
+                                ],
+                                "amount": 301.99,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303182005--31878-0-15277-2303182240|15277-2303190740--31878-1-10568-2303191310?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "10568-2303182225--31878-0-15277-2303190115|15277-2303190740--31878-1-10568-2303191310",
+                        "price": {
+                            "raw": 301.99,
+                            "formatted": "$302"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303182225--31878-0-15277-2303190115",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 170,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T22:25:00",
+                                "arrival": "2023-03-19T01:15:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31878,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/3U.png",
+                                            "name": "Sichuan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303182225-2303190115--31878",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T22:25:00",
+                                        "arrival": "2023-03-19T01:15:00",
+                                        "durationInMinutes": 170,
+                                        "flightNumber": "8831",
+                                        "marketingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190740--31878-1-10568-2303191310",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 330,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T07:40:00",
+                                "arrival": "2023-03-19T13:10:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31878,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/3U.png",
+                                            "name": "Sichuan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-18534-2303190740-2303191000--31878",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "ZHY",
+                                            "parent": {
+                                                "flightPlaceId": "ZHON",
+                                                "name": "Zhongwei",
+                                                "type": "City"
+                                            },
+                                            "name": "Zhongwei",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T07:40:00",
+                                        "arrival": "2023-03-19T10:00:00",
+                                        "durationInMinutes": 140,
+                                        "flightNumber": "8819",
+                                        "marketingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "18534-10568-2303191105-2303191310--31878",
+                                        "origin": {
+                                            "flightPlaceId": "ZHY",
+                                            "parent": {
+                                                "flightPlaceId": "ZHON",
+                                                "name": "Zhongwei",
+                                                "type": "City"
+                                            },
+                                            "name": "Zhongwei",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T11:05:00",
+                                        "arrival": "2023-03-19T13:10:00",
+                                        "durationInMinutes": 125,
+                                        "flightNumber": "8819",
+                                        "marketingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31878,
+                                            "name": "Sichuan Airlines",
+                                            "alternateId": "3U",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "lmuk"
+                                ],
+                                "amount": 301.99,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303182225--31878-0-15277-2303190115|15277-2303190740--31878-1-10568-2303191310?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "10568-2303180655--32690-1-15277-2303181205|15277-2303191600--32690-1-10568-2303192255",
+                        "price": {
+                            "raw": 313,
+                            "formatted": "$313"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303180655--32690-1-15277-2303181205",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 310,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T06:55:00",
+                                "arrival": "2023-03-18T12:05:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-18074-2303180655-2303180830--32690",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "YCU",
+                                            "parent": {
+                                                "flightPlaceId": "YCUA",
+                                                "name": "Yun Cheng",
+                                                "type": "City"
+                                            },
+                                            "name": "Yun Cheng",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T06:55:00",
+                                        "arrival": "2023-03-18T08:30:00",
+                                        "durationInMinutes": 95,
+                                        "flightNumber": "4013",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "18074-15277-2303181025-2303181205--32690",
+                                        "origin": {
+                                            "flightPlaceId": "YCU",
+                                            "parent": {
+                                                "flightPlaceId": "YCUA",
+                                                "name": "Yun Cheng",
+                                                "type": "City"
+                                            },
+                                            "name": "Yun Cheng",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T10:25:00",
+                                        "arrival": "2023-03-18T12:05:00",
+                                        "durationInMinutes": 100,
+                                        "flightNumber": "1128",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303191600--32690-1-10568-2303192255",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 415,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T16:00:00",
+                                "arrival": "2023-03-19T22:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-17839-2303191600-2303191815--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "WUH",
+                                            "parent": {
+                                                "flightPlaceId": "CWUH",
+                                                "name": "Wuhan",
+                                                "type": "City"
+                                            },
+                                            "name": "Wuhan",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T16:00:00",
+                                        "arrival": "2023-03-19T18:15:00",
+                                        "durationInMinutes": 135,
+                                        "flightNumber": "8210",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "17839-10568-2303192110-2303192255--32690",
+                                        "origin": {
+                                            "flightPlaceId": "WUH",
+                                            "parent": {
+                                                "flightPlaceId": "CWUH",
+                                                "name": "Wuhan",
+                                                "type": "City"
+                                            },
+                                            "name": "Wuhan",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T21:10:00",
+                                        "arrival": "2023-03-19T22:55:00",
+                                        "durationInMinutes": 105,
+                                        "flightNumber": "4382",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "second_cheapest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.9949666,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 313,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303180655--32690-1-15277-2303181205|15277-2303191600--32690-1-10568-2303192255?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Fastest",
+                "name": "Fastest",
+                "items": [
+                    {
+                        "id": "10568-2303180810--32253-0-15277-2303181035|15277-2303190800--32690-0-10568-2303191050",
+                        "price": {
+                            "raw": 379,
+                            "formatted": "$379"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303180810--32253-0-15277-2303181035",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 145,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T08:10:00",
+                                "arrival": "2023-03-18T10:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32253,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HU.png",
+                                            "name": "Hainan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303180810-2303181035--32253",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T08:10:00",
+                                        "arrival": "2023-03-18T10:35:00",
+                                        "durationInMinutes": 145,
+                                        "flightNumber": "7368",
+                                        "marketingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190800--32690-0-10568-2303191050",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 170,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T08:00:00",
+                                "arrival": "2023-03-19T10:50:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303190800-2303191050--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T08:00:00",
+                                        "arrival": "2023-03-19T10:50:00",
+                                        "durationInMinutes": 170,
+                                        "flightNumber": "1431",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 379,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303180810--32253-0-15277-2303181035|15277-2303190800--32690-0-10568-2303191050?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "10568-2303181130--32690-0-15277-2303181355|15277-2303190800--32690-0-10568-2303191050",
+                        "price": {
+                            "raw": 388,
+                            "formatted": "$388"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303181130--32690-0-15277-2303181355",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 145,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T11:30:00",
+                                "arrival": "2023-03-18T13:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303181130-2303181355--32690",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T11:30:00",
+                                        "arrival": "2023-03-18T13:55:00",
+                                        "durationInMinutes": 145,
+                                        "flightNumber": "4135",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190800--32690-0-10568-2303191050",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 170,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T08:00:00",
+                                "arrival": "2023-03-19T10:50:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303190800-2303191050--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T08:00:00",
+                                        "arrival": "2023-03-19T10:50:00",
+                                        "durationInMinutes": 170,
+                                        "flightNumber": "1431",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 388,
+                                "bookingProposition": "PBOOK"
+                            },
+                            {
+                                "agentIds": [
+                                    "gtuk"
+                                ],
+                                "amount": 857.93,
+                                "bookingProposition": "PBOOK"
+                            },
+                            {
+                                "agentIds": [
+                                    "bcuk"
+                                ],
+                                "amount": 867.56,
+                                "bookingProposition": "PBOOK"
+                            },
+                            {
+                                "agentIds": [
+                                    "mtuk"
+                                ],
+                                "amount": 872.37,
+                                "bookingProposition": "PBOOK"
+                            },
+                            {
+                                "agentIds": [
+                                    "achd"
+                                ],
+                                "amount": 0,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303181130--32690-0-15277-2303181355|15277-2303190800--32690-0-10568-2303191050?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "10568-2303181130--32690-0-15277-2303181355|15277-2303191700--32690-0-10568-2303191955",
+                        "price": {
+                            "raw": 401,
+                            "formatted": "$401"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303181130--32690-0-15277-2303181355",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 145,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T11:30:00",
+                                "arrival": "2023-03-18T13:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303181130-2303181355--32690",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T11:30:00",
+                                        "arrival": "2023-03-18T13:55:00",
+                                        "durationInMinutes": 145,
+                                        "flightNumber": "4135",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303191700--32690-0-10568-2303191955",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 175,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T17:00:00",
+                                "arrival": "2023-03-19T19:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303191700-2303191955--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T17:00:00",
+                                        "arrival": "2023-03-19T19:55:00",
+                                        "durationInMinutes": 175,
+                                        "flightNumber": "1435",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.9968848,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 401,
+                                "bookingProposition": "PBOOK"
+                            },
+                            {
+                                "agentIds": [
+                                    "gtuk"
+                                ],
+                                "amount": 857.93,
+                                "bookingProposition": "PBOOK"
+                            },
+                            {
+                                "agentIds": [
+                                    "bcuk"
+                                ],
+                                "amount": 867.56,
+                                "bookingProposition": "PBOOK"
+                            },
+                            {
+                                "agentIds": [
+                                    "mtuk"
+                                ],
+                                "amount": 872.37,
+                                "bookingProposition": "PBOOK"
+                            },
+                            {
+                                "agentIds": [
+                                    "achd"
+                                ],
+                                "amount": 0,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303181130--32690-0-15277-2303181355|15277-2303191700--32690-0-10568-2303191955?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Direct",
+                "name": "Direct",
+                "items": [
+                    {
+                        "id": "10568-2303180810--32253-0-15277-2303181035|15277-2303190700--32690-0-10568-2303190955",
+                        "price": {
+                            "raw": 368,
+                            "formatted": "$368"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303180810--32253-0-15277-2303181035",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 145,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T08:10:00",
+                                "arrival": "2023-03-18T10:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32253,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HU.png",
+                                            "name": "Hainan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303180810-2303181035--32253",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T08:10:00",
+                                        "arrival": "2023-03-18T10:35:00",
+                                        "durationInMinutes": 145,
+                                        "flightNumber": "7368",
+                                        "marketingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190700--32690-0-10568-2303190955",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 175,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T07:00:00",
+                                "arrival": "2023-03-19T09:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303190700-2303190955--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T07:00:00",
+                                        "arrival": "2023-03-19T09:55:00",
+                                        "durationInMinutes": 175,
+                                        "flightNumber": "1437",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.807803,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 368,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303180810--32253-0-15277-2303181035|15277-2303190700--32690-0-10568-2303190955?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "10568-2303182130--32690-0-15277-2303190005|15277-2303190700--32690-0-10568-2303190955",
+                        "price": {
+                            "raw": 361,
+                            "formatted": "$361"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303182130--32690-0-15277-2303190005",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 155,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T21:30:00",
+                                "arrival": "2023-03-19T00:05:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303182130-2303190005--32690",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T21:30:00",
+                                        "arrival": "2023-03-19T00:05:00",
+                                        "durationInMinutes": 155,
+                                        "flightNumber": "1436",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190700--32690-0-10568-2303190955",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 175,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T07:00:00",
+                                "arrival": "2023-03-19T09:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303190700-2303190955--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T07:00:00",
+                                        "arrival": "2023-03-19T09:55:00",
+                                        "durationInMinutes": 175,
+                                        "flightNumber": "1437",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.798513,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 361,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303182130--32690-0-15277-2303190005|15277-2303190700--32690-0-10568-2303190955?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "10568-2303180810--32253-0-15277-2303181035|15277-2303190800--32690-0-10568-2303191050",
+                        "price": {
+                            "raw": 379,
+                            "formatted": "$379"
+                        },
+                        "legs": [
+                            {
+                                "id": "10568-2303180810--32253-0-15277-2303181035",
+                                "origin": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 145,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-18T08:10:00",
+                                "arrival": "2023-03-18T10:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32253,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/HU.png",
+                                            "name": "Hainan Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10568-15277-2303180810-2303181035--32253",
+                                        "origin": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-18T08:10:00",
+                                        "arrival": "2023-03-18T10:35:00",
+                                        "durationInMinutes": 145,
+                                        "flightNumber": "7368",
+                                        "marketingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32253,
+                                            "name": "Hainan Airlines",
+                                            "alternateId": "HU",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15277-2303190800--32690-0-10568-2303191050",
+                                "origin": {
+                                    "id": "PEK",
+                                    "name": "Beijing Capital",
+                                    "displayCode": "PEK",
+                                    "city": "Beijing",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "CKG",
+                                    "name": "Chongqing",
+                                    "displayCode": "CKG",
+                                    "city": "Chongqing",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 170,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-19T08:00:00",
+                                "arrival": "2023-03-19T10:50:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32690,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/CA.png",
+                                            "name": "Air China"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "15277-10568-2303190800-2303191050--32690",
+                                        "origin": {
+                                            "flightPlaceId": "PEK",
+                                            "parent": {
+                                                "flightPlaceId": "BJSA",
+                                                "name": "Beijing",
+                                                "type": "City"
+                                            },
+                                            "name": "Beijing Capital",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CKG",
+                                            "parent": {
+                                                "flightPlaceId": "CCKG",
+                                                "name": "Chongqing",
+                                                "type": "City"
+                                            },
+                                            "name": "Chongqing",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-19T08:00:00",
+                                        "arrival": "2023-03-19T10:50:00",
+                                        "durationInMinutes": 170,
+                                        "flightNumber": "1431",
+                                        "marketingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32690,
+                                            "name": "Air China",
+                                            "alternateId": "CA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.796807,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "skyp"
+                                ],
+                                "amount": 379,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/ckg/pek/230318/230319/config/10568-2303180810--32253-0-15277-2303181035|15277-2303190800--32690-0-10568-2303191050?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545090&originentityid=27539818&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            }
+        ]
+    }
+}
