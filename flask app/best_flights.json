@@ -1,0 +1,2229 @@
+{
+    "context": {
+        "status": "incomplete",
+        "sessionId": "334f7613-2fb4-42ca-b6d2-994b12c27fe6",
+        "totalResults": 10
+    },
+    "itineraries": {
+        "buckets": [
+            {
+                "id": "Best",
+                "name": "Best",
+                "items": [
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303162120--32593-0-13416-2303162359",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303162120--32593-0-13416-2303162359",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 159,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T21:20:00",
+                                "arrival": "2023-03-16T23:59:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303162120-2303162359--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T21:20:00",
+                                        "arrival": "2023-03-16T23:59:00",
+                                        "durationInMinutes": 159,
+                                        "flightNumber": "1324",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.813002,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303162120--32593-0-13416-2303162359?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161950--32593-0-13416-2303162230",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161950--32593-0-13416-2303162230",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 160,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T19:50:00",
+                                "arrival": "2023-03-16T22:30:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161950-2303162230--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T19:50:00",
+                                        "arrival": "2023-03-16T22:30:00",
+                                        "durationInMinutes": 160,
+                                        "flightNumber": "1224",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.810531,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161950--32593-0-13416-2303162230?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161555--32593-0-13416-2303161835",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161555--32593-0-13416-2303161835",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 160,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T15:55:00",
+                                "arrival": "2023-03-16T18:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161555-2303161835--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T15:55:00",
+                                        "arrival": "2023-03-16T18:35:00",
+                                        "durationInMinutes": 160,
+                                        "flightNumber": "1092",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.810531,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161555--32593-0-13416-2303161835?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Cheapest",
+                "name": "Cheapest",
+                "items": [
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161335--32593-0-13416-2303161619",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161335--32593-0-13416-2303161619",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 164,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T13:35:00",
+                                "arrival": "2023-03-16T16:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161335-2303161619--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T13:35:00",
+                                        "arrival": "2023-03-16T16:19:00",
+                                        "durationInMinutes": 164,
+                                        "flightNumber": "1300",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161335--32593-0-13416-2303161619?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161950--32593-0-13416-2303162230",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161950--32593-0-13416-2303162230",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 160,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T19:50:00",
+                                "arrival": "2023-03-16T22:30:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161950-2303162230--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T19:50:00",
+                                        "arrival": "2023-03-16T22:30:00",
+                                        "durationInMinutes": 160,
+                                        "flightNumber": "1224",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161950--32593-0-13416-2303162230?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161225--32593-0-13416-2303161509",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161225--32593-0-13416-2303161509",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 164,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T12:25:00",
+                                "arrival": "2023-03-16T15:09:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161225-2303161509--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T12:25:00",
+                                        "arrival": "2023-03-16T15:09:00",
+                                        "durationInMinutes": 164,
+                                        "flightNumber": "1220",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161225--32593-0-13416-2303161509?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Fastest",
+                "name": "Fastest",
+                "items": [
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303162120--32593-0-13416-2303162359",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303162120--32593-0-13416-2303162359",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 159,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T21:20:00",
+                                "arrival": "2023-03-16T23:59:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303162120-2303162359--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T21:20:00",
+                                        "arrival": "2023-03-16T23:59:00",
+                                        "durationInMinutes": 159,
+                                        "flightNumber": "1324",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303162120--32593-0-13416-2303162359?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161950--32593-0-13416-2303162230",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161950--32593-0-13416-2303162230",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 160,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T19:50:00",
+                                "arrival": "2023-03-16T22:30:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161950-2303162230--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T19:50:00",
+                                        "arrival": "2023-03-16T22:30:00",
+                                        "durationInMinutes": 160,
+                                        "flightNumber": "1224",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.9615384,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161950--32593-0-13416-2303162230?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161555--32593-0-13416-2303161835",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161555--32593-0-13416-2303161835",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 160,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T15:55:00",
+                                "arrival": "2023-03-16T18:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161555-2303161835--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T15:55:00",
+                                        "arrival": "2023-03-16T18:35:00",
+                                        "durationInMinutes": 160,
+                                        "flightNumber": "1092",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.9615384,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161555--32593-0-13416-2303161835?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            },
+            {
+                "id": "Direct",
+                "name": "Direct",
+                "items": [
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303162120--32593-0-13416-2303162359",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303162120--32593-0-13416-2303162359",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 159,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T21:20:00",
+                                "arrival": "2023-03-16T23:59:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303162120-2303162359--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T21:20:00",
+                                        "arrival": "2023-03-16T23:59:00",
+                                        "durationInMinutes": 159,
+                                        "flightNumber": "1324",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.813002,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303162120--32593-0-13416-2303162359?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161950--32593-0-13416-2303162230",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161950--32593-0-13416-2303162230",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 160,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T19:50:00",
+                                "arrival": "2023-03-16T22:30:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161950-2303162230--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T19:50:00",
+                                        "arrival": "2023-03-16T22:30:00",
+                                        "durationInMinutes": 160,
+                                        "flightNumber": "1224",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.810531,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161950--32593-0-13416-2303162230?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    },
+                    {
+                        "id": "13416-2303141930--31722-0-16177-2303142219|16177-2303161555--32593-0-13416-2303161835",
+                        "price": {
+                            "raw": 430.7,
+                            "formatted": "$431"
+                        },
+                        "legs": [
+                            {
+                                "id": "13416-2303141930--31722-0-16177-2303142219",
+                                "origin": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 169,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-14T19:30:00",
+                                "arrival": "2023-03-14T22:19:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31722,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                                            "name": "United"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "13416-16177-2303141930-2303142219--31722",
+                                        "origin": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-14T19:30:00",
+                                        "arrival": "2023-03-14T22:19:00",
+                                        "durationInMinutes": 169,
+                                        "flightNumber": "2315",
+                                        "marketingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31722,
+                                            "name": "United",
+                                            "alternateId": "UA",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16177-2303161555--32593-0-13416-2303161835",
+                                "origin": {
+                                    "id": "SEA",
+                                    "name": "Seattle / Tacoma International",
+                                    "displayCode": "SEA",
+                                    "city": "Seattle",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "LAX",
+                                    "name": "Los Angeles International",
+                                    "displayCode": "LAX",
+                                    "city": "Los Angeles",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 160,
+                                "stopCount": 0,
+                                "isSmallestStops": false,
+                                "departure": "2023-03-16T15:55:00",
+                                "arrival": "2023-03-16T18:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32593,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AS.png",
+                                            "name": "Alaska Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "16177-13416-2303161555-2303161835--32593",
+                                        "origin": {
+                                            "flightPlaceId": "SEA",
+                                            "parent": {
+                                                "flightPlaceId": "SEAA",
+                                                "name": "Seattle",
+                                                "type": "City"
+                                            },
+                                            "name": "Seattle / Tacoma International",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "LAX",
+                                            "parent": {
+                                                "flightPlaceId": "LAXA",
+                                                "name": "Los Angeles",
+                                                "type": "City"
+                                            },
+                                            "name": "Los Angeles International",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2023-03-16T15:55:00",
+                                        "arrival": "2023-03-16T18:35:00",
+                                        "durationInMinutes": 160,
+                                        "flightNumber": "1092",
+                                        "marketingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32593,
+                                            "name": "Alaska Airlines",
+                                            "alternateId": "AS",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "isProtectedSelfTransfer": false,
+                        "farePolicy": {
+                            "isChangeAllowed": false,
+                            "isPartiallyChangeable": false,
+                            "isCancellationAllowed": false,
+                            "isPartiallyRefundable": false
+                        },
+                        "fareAttributes": {},
+                        "tags": [
+                            "cheapest",
+                            "second_shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 0.810531,
+                        "pricingOptions": [
+                            {
+                                "agentIds": [
+                                    "ctuk"
+                                ],
+                                "amount": 430.7,
+                                "bookingProposition": "PBOOK"
+                            }
+                        ],
+                        "deeplink": "https://www.skyscanner.net/transport/flights/lax/sea/230314/230316/config/13416-2303141930--31722-0-16177-2303142219|16177-2303161555--32593-0-13416-2303161835?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27538444&originentityid=27536211&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+                    }
+                ]
+            }
+        ]
+    }
+}

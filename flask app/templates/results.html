@@ -3,16 +3,35 @@
 <head>
 	<title>Flight Search Results</title>
 	<style>
-		table, th, td {
-			border: 1px solid black;
+		table {
 			border-collapse: collapse;
-			padding: 5px;
-            white-space: nowrap;
-            text-align: center;
+			width: 100%;
 		}
+
+		th, td {
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: center;
+			white-space: nowrap;
+		}
+
 		th {
-			background-color: #ddd;
+			background-color: #f2f2f2;
 			font-weight: bold;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		tr:hover {
+			background-color: #ddd;
+		}
+
+		@media screen and (max-width: 600px) {
+			table {
+				font-size: 12px;
+			}
 		}
 	</style>
 </head>
@@ -45,8 +64,8 @@
 				<td>{{ item.origin }}</td>
 				<td>{{ item.destination }}</td>
 				<td>{{ item['total time'] }}</td>
-                <td>{{ item.departure.split()[0] }}<br>{{ item.departure.split()[1] }}</td>
-                <td>{{ item.arrival.split()[0] }}<br>{{ item.arrival.split()[1] }}</td>
+                <td>{{ item.departure}}</td>
+                <td>{{ item.arrival}}</td>
 				<td>{{ item.carrier }}</td>
 				<td>{{ item.flightNumber }}</td>
                 <td>{{ item['stop count'] }}</td>
