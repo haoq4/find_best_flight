@@ -1,11 +1,15 @@
 # Find Best Flight
-The complete program is in the folder: (final search best flight app).  
-Other folder is containing test file and small function.
-
-Stats418 class in winter23
-
-Name: Hao Qiu
+### Stats418 class in winter23  
+Name: Hao Qiu  
 UID: 406090766
+
+## Web App
+The complete program is in the folder: (final search best flight app).  
+Open web app in url: 
+```
+http://searchflight-env.eba-briwp3ks.us-east-2.elasticbeanstalk.com/
+```
+Other folders are containing test files and small functions.
 
 ## Describtion
 This program is written in Python and uses the Skyscanner API to retrieve real-time flight and ticket information. Users can input their desired information, such as departure and arrival cities, dates, number of passengers, etc., to obtain a JSON format file. The program analyzes the flight data and lists the best, most direct, and cheapest flights for users to choose from.
@@ -56,6 +60,12 @@ The .ebextensions folder contains the python.config file which is used for runni
 * templates/index.html: Main page template file
 * templates/results.html: Result page template file
 * .ebextensions/python.config: Used for running in the AWS Elastic Beanstalk
+
+## Screenshoot of App
+![](https://github.com/haoq4/find_best_flight/raw/main/image/mainPage.png)
+<img src="https://github.com/haoq4/find_best_flight/raw/main/image/result1.png" width="800px">
+<img src="https://github.com/haoq4/find_best_flight/raw/main/image/result2.png" width="1000px">
+
 
 ## Author
 This program is written by Hao Qiu, if you have any questions, please contact haoq4@ucla.edu.
